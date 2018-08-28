@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d5dc27e-711b-4a0b-9fbd-0a33ee32dae8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LogAnalysis$test.coverage" NAME="test Coverage Results" MODIFIED="1534383480491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LogAnalysis$StringTest.coverage" NAME="StringTest Coverage Results" MODIFIED="1535072589301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LogAnalysis$Main.coverage" NAME="Main Coverage Results" MODIFIED="1535087388680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1497849392">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.10" value="5" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="9" />
+          <entry key="py" value="39" />
+          <entry key="rtf" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="39" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="78" />
+          <entry key="dummy" value="5" />
+          <entry key="py" value="28014" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="28092" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LogAnalysis" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#22#40#0" expanded="true" />
+                <marker date="1535087625007" expanded="true" signature="4391:4599" ph="..." />
+                <marker date="1535087625007" expanded="true" signature="4648:4860" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Log_msg_translation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>MyBatis Config File</find>
+      <find>MyBatis Configure File</find>
+      <find>GET IP Exception</find>
+      <find>WARN</find>
+      <find>Exception</find>
+      <find>GET IP EXCEPTION</find>
+      <find>close</find>
+      <find>\#coding\:utf\-8\nimport sys\nimport re\nimport sys\nimport fileinput\nimport filecmp\nimport mmap\nimport os\n\n\n\ndef main\(\)\:\n    Start \= input\(\&quot;시작 1 종료 2 \: \&quot;\)\n    while Start \=\= \&quot;1\&quot;\:\n        InputFilename \= input\(\&quot;파일명 입력하세요\:\&quot;\)\n        print\(InputFilename\)\n        try\:\n            with open\(InputFilename\, \&quot;r\&quot;\) as fs\, \\\n                    mmap\.mmap\(fs\.fileno\(\)\, 0 \, access\=mmap\.ACCESS_READ\) as findtext\:\n                while True\:\n                    line \= fs\.readline\(\)\n                    if not line\:\n                        break\n                if findtext\.find\(b\'MyBatis Configure File Is Doesnt exist\'\) is not \-1\:\n                    print\(\&quot;결과 \: MyBatis Configure File이 존재하지 않습니다\. \&quot;\)\n                if findtext\.find\(\'Service\, 설정 파일을 읽는 도중 에러 발생\'\.encode\(\)\) is not \-1\:\n                    print\(\&quot;결과 \: Service\.xml 파일 확인 해봐\&quot;\)\n                if findtext\.find\(b\'GET IP Exception\'\) is not \-1\:\n                    print\(\&quot;결과 \: IP 설정이 잘못되었습니다\. 확인 해봐\&quot;\)\n                if findtext\.find\(b\'sex\'\) is not \-1\:\n                    print\(\&quot;java\&quot;\)\n                if findtext\.find\(\'nan\'\) is not \-1\:\n                    print\(\'nan\'\)\n                if findtext\.find\(\'한글\'\.encode\(\)\) is not \-1\:\n                    print\(\'korea\'\)\n                else \:\n                    print\(\'이상 무\'\)\n            fs\.close\(\)\n            Start \= input\(\&quot;다시 시작 1번 종료 2번 \:\&quot;\)\n        except IOError\:\n            print\(\&quot;존재하지 않는 파일입니다\. 파일명을 확인 부탁드립니다\.\&quot;\)\n            print\(IOError\)\n    if Start \=\= \&quot;2\&quot;\:\n        print\(\&quot;종료됨\&quot;\)\ndef FindText\(\)\:\n    print\(\&quot;FindText\&quot;\)\n\ndef ReadFile\(\)\:\n    print\(\&quot;ReadFile\&quot;\)\n\ndef TextFileSplit\(\)\:\n    print\(\&quot;TextFileSplit\&quot;\)\n\nif __name__ \=\= \'__main__\'\:\n    print\(\'좆까\'\)\n    main\(\)\n    FindText\(\)\n    ReadFile\(\)\n    TextFileSplit\(\)\n\n\n</find>
+      <find>\#coding\:utf\-8\nimport sys\nimport re\nimport sys\nimport fileinput\nimport filecmp\nimport mmap\nimport os\n\n\n\ndef main\(\)\:\n    Start \= input\(\&quot;시작 1 종료 2 \: \&quot;\)\n    while Start \=\= \&quot;1\&quot;\:\n        InputFilename \= input\(\&quot;파일명 입력하세요\:\&quot;\)\n        print\(InputFilename\)\n        try\:\n            with open\(InputFilename\, \&quot;r\&quot;\) as fs\, \\\n                    mmap\.mmap\(fs\.fileno\(\)\, 0 \, access\=mmap\.ACCESS_READ\) as findtext\:\n                while True\:\n                    line \= fs\.readline\(\)\n                    if not line\:\n                        break\n                if findtext\.find\(b\'MyBatis Configure File Is Doesnt exist\'\) is not \-1\:\n                    print\(\&quot;결과 \: MyBatis Configure File이 존재하지 않습니다\. \&quot;\)\n                if findtext\.find\(\'Service\, 설정 파일을 읽는 도중 에러 발생\'\.encode\(\)\) is not \-1\:\n                    print\(\&quot;결과 \: Service\.xml 파일 확인 해봐\&quot;\)\n                if findtext\.find\(b\'GET IP Exception\'\) is not \-1\:\n                    print\(\&quot;결과 \: IP 설정이 잘못되었습니다\. 확인 해봐\&quot;\)\n                if findtext\.find\(b\'sex\'\) is not \-1\:\n                    print\(\&quot;java\&quot;\)\n                if findtext\.find\(\'nan\'\) is not \-1\:\n                    print\(\'nan\'\)\n                if findtext\.find\(\'한글\'\.encode\(\)\) is not \-1\:\n                    print\(\'korea\'\)\n                else \:\n                    print\(\'이상 무\'\)\n            fs\.close\(\)\n            Start \= input\(\&quot;다시 시작 1번 종료 2번 \:\&quot;\)\n        except IOError\:\n            print\(\&quot;존재하지 않는 파일입니다\. 파일명을 확인 부탁드립니다\.\&quot;\)\n            print\(IOError\)\n    if Start \=\= \&quot;2\&quot;\:\n        print\(\&quot;종료됨\&quot;\)\ndef FindText\(\)\:\n    print\(\&quot;FindText\&quot;\)\n    \ndef ReadFile\(\)\:\n    print\(\&quot;ReadFile\&quot;\)\n\ndef TextFileSplit\(\)\:\n    print\(\&quot;TextFileSplit\&quot;\)\nif __name__ \=\= \'__main__\'\:\n    print\(\'좆까\'\)\n    main\(\)\n    FindText\(\)\n    ReadFile\(\)\n    TextFileSplit\(\)\n\n\n</find>
+      <find>찾았다</find>
+      <find>mWarn</find>
+      <find>exception</find>
+      <find>Socket Close Fail</find>
+      <find>increase_count</find>
+      <find>log_dict</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/venv/include/Test.py" />
+        <option value="$PROJECT_DIR$/FindTextFile.py" />
+        <option value="$PROJECT_DIR$/StringEquls.py" />
+        <option value="$PROJECT_DIR$/StringSplit.py" />
+        <option value="$PROJECT_DIR$/Matching.py" />
+        <option value="$PROJECT_DIR$/Error.py" />
+        <option value="$PROJECT_DIR$/Output.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Enum.py" />
+        <option value="$PROJECT_DIR$/log_msg_translation.py" />
+        <option value="$PROJECT_DIR$/StringTest.py" />
+        <option value="$PROJECT_DIR$/Log_msg_translation.py" />
+        <option value="$PROJECT_DIR$/Main.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LogAnalysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogAnalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="pri&#9;FILE&#9;file:///Users/hwangjihwan/PycharmProjects/LogAnalysis/venv/lib/python3.6/site-packages/numpy/testing/print_coercion_tables.py" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Main">
+    <configuration name="Log_msg_translation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Log_msg_translation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="StringTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="LogAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LogAnalysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.StringTest" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Log_msg_translation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Log_msg_translation" />
+        <item itemvalue="Python.StringTest" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d5dc27e-711b-4a0b-9fbd-0a33ee32dae8" name="Default Changelist" comment="" />
+      <created>1534220291670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534220291670</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2536349" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34160584" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6189781" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329927" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" x="0" y="0" width="270" height="577" id="Documentation" order="5" side_tool="true" weight="0.32956383" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24959612" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3080292" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.6189781" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/include/Test.py" />
+    <entry file="file://$PROJECT_DIR$/FindTextFile.py" />
+    <entry file="file://$PROJECT_DIR$/Matching.py" />
+    <entry file="file://$PROJECT_DIR$/Output.py" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/fu.log" />
+    <entry file="file://$PROJECT_DIR$/main.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="768" column="83" selection-start-line="768" selection-start-column="83" selection-end-line="768" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Error.py" />
+    <entry file="file://$PROJECT_DIR$/Enum.py" />
+    <entry file="file://$PROJECT_DIR$/StringEquls.py" />
+    <entry file="file://$PROJECT_DIR$/StringSplit.py" />
+    <entry file="file://$PROJECT_DIR$/test.rtf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.6/site-packages/numpy/testing/print_coercion_tables.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Log_msg_translation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#22#40#0" expanded="true" />
+            <marker date="1535087625007" expanded="true" signature="4391:4599" ph="..." />
+            <marker date="1535087625007" expanded="true" signature="4648:4860" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
